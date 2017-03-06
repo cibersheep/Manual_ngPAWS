@@ -6,7 +6,7 @@ Bienvenido al gitbook de **ngPAWS.** En las siguientes páginas encontrarás tod
 
 Esta guía te enseñará los conceptos básicos de **ngPAWS,** y es recomendable leerla, aunque sea por encima, antes de mirar los tutoriales. Piensa que no tienes que entenderlo todo a la primera, simplemente léela brevemente de modo que, al llegar a los tutoriales, haya cosas que te suenen.
 
-Antes de empezar, si eres o fuiste un usuario de **PAWS,** te recomiendo leer la documentación de todas formas. Si no puedes esperar, quizá echarle un simple vistazo a este enlace pueda servirte: [ngPAWS para programadores PAWS](#mejorando-ngpaws-solo-para-programadores-javascript).
+Antes de empezar, si eres o fuiste un usuario de **PAWS,** te recomiendo leer la documentación de todas formas. Si no puedes esperar, quizá echarle un simple vistazo a este enlace pueda servirte: [ngPAWS para programadores PAWS](/ngPAWS-para-programadores-PAWS.md).
 
 ### Guía básica
 
