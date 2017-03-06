@@ -1,3 +1,5 @@
+# MANUAL DE USO DE ngPAWS
+
 ## INICIO
 
 Bienvenido al gitbook de **ngPAWS.** En las siguientes páginas encontrarás toda la información necesaria para hacer funcionar tu propio juego de aventuras gráfico/textuales.
