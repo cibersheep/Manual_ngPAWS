@@ -8,5 +8,5 @@ Para comenzar, te explicaremos con detalle las diferentes partes que forman esa 
 
 ¡Feliz aventura!
 
-Este libro se basa en la [wiki](https://github.com/Utodev/ngPAWS) del proyecto original y pretende ser una recapitulación de todo el material, fácil de descargar como libro a la vez que de fácil actualización.
+Este libro se basa en la [wiki](https://github.com/Utodev/ngPAWS) del proyecto original y pretende ser una recapitulación de todo el material, de fácil descarga como libro a la vez que de simple actualización.
 
