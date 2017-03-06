@@ -6,7 +6,7 @@ Para evitar que, como autor, tengas que crear respuestas para las órdenes más 
 
 Para comenzar, te explicaremos con detalle las diferentes partes que forman esa base de datos de inicio, para que sepas dónde poner las localidades, los objetos, etc.
 
-¡Feliz aventura!
+[¡Feliz aventura!](/inicio.md)
 
 Este libro se basa en la [wiki](https://github.com/Utodev/ngPAWS) del proyecto original y pretende ser una recapitulación de todo el material, de fácil descarga como libro a la vez que de simple actualización.
 
