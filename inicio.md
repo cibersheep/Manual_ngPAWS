@@ -10,7 +10,7 @@ Antes de empezar, si eres o fuiste un usuario de **PAWS,** te recomiendo leer la
 
 ### Guía básica
 
-* Capítulo 1: [¿Qué es ngPAWS?](Introducción)
+* Capítulo 1: ¿Qué es ngPAWS?
 * Capítulo 2: [Instalación](/instalacion.md)
 * Capítulo 3: \[La base de datos de la aventura\] \(La base de datos de la aventura\)
 * Capítulo 4: \[La base de datos de inicio\] \(La base de datos de inicio\)
@@ -84,8 +84,6 @@ Quiero agradecer...
 * Los logotipos de este documento incluyen el logo de Superglús y otros creados a partir de iconos de:
   * Pluma. Licencia CC\_By Joris Hoogendoorn
   * Espada. Licencia CC-By Ilho Byun
-
-
 
 ![](/assets/logo-header.svg)
 
