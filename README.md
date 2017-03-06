@@ -1,3 +1,5 @@
+# ![](/assets/logo-idea-superglus.svg) {#introducción}
+
 # INTRODUCCIÓN {#introducción}
 
 ngPAWS te permitirá crear tus propios juegos o historias de aventura de texto, de una manera sencilla y basada en el punto de vista del jugador. Dicho de otro modo, ngPAWS permitirá que definas los datos de tu aventura \(localidades, conexiones entre localidades, objetos, personajes –NPC–, etc.\) y las respuestas para las ordenes que dé el jugador \(por ejemplo, que decidas qué hacer cuando el jugador escriba «ABRIR PUERTA»\).

@@ -81,6 +81,11 @@ Quiero agradecer...
 * La jQuery Foundation, por crear **jQuery**
 * dddddd, porque sugirió el nombre de esta herramienta
 * A los otros que sugirieron otros nombre que finalmente no fueron elegidos.
+* Los logotipos de este documento incluyen el logo de Superglús y otros creados a partir de iconos de:
+  * Pluma. Licencia CC\_By Joris Hoogendoorn
+  * Espada. Licencia CC-By Ilho Byun
 
 
+
+![](/assets/logo-header.svg)
 
