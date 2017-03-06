@@ -1,0 +1,15 @@
+### Micro tutoriales
+
+* [[Cómo definir localidades e interconectarlas]]
+* [[Cómo definir objetos para las aventuras]]
+* [[Cómo poner un  gráfico en una localidad]]
+* [[Cómo cambiar el gráfico de una localidad]]
+* [[Cómo hacer sonar un efecto o música]]
+* [[Cómo cambiar el tipo de letra de la aventura]]
+* [[Cómo añadir una respuesta a una acción del jugador]]
+* [[Objetos contables]]
+* [[Cómo cambiar el tipo de letra en parte del texto]]
+* [[Como hablar con un NPC]]
+* [[Ejemplos: Conversaciones por menús]]
+* [[Ejemplos: El NPC ladrón]]
+* [[Ejemplos: Dos PJs]]

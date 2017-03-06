@@ -1,0 +1,10 @@
+* [[DEBUG|DEBUG_ES]] (obsoleto)
+* [[TRANSCRIPT|TRANSCRIPT_ES]]
+* [[BELL|BELL_ES]] (obsoleto)
+* [[DOALL|DOALL_ES]]
+* [[EXTERN|EXTERN_ES]]
+* [[PROCESS|PROCESS_ES]]
+* [[RESET|RESET_ES]] (obsoleto)
+* [[TIME|TIME_ES]]
+* [[HELP|HELP_ES]]
+* [[COMMAND|COMMAND_ES]]
