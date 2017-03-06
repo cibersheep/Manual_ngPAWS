@@ -1,0 +1,43 @@
+### Estándar
+
+* [[COPYOO|COPYOO_ES]]
+* [[CREATE|CREATE_ES]]
+* [[DESTROY|DESTROY_ES]]
+* [[GET|GET_ES]]
+* [[DROP|DROP_ES]]
+* [[DROPALL|DROPALL_ES]]
+* [[WEAR|WEAR_ES]]
+* [[REMOVE|REMOVE_ES]]
+* [[PUTIN|PUTIN_ES]]
+* [[TAKEOUT|TAKEOUT_ES]]
+* [[PLACE|PLACE_ES]]
+* [[SWAP|SWAP_ES]]
+* [[PUTO|PUTO_ES]]
+* [[SETWEIGHT|SETWEIGHT_ES]]
+
+### Automáticos
+
+* [[AUTOD|AUTOD_ES]]
+* [[AUTOG|AUTOG_ES]]
+* [[AUTOP|AUTOP_ES]]
+* [[AUTOT|AUTOT_ES]]
+* [[AUTOR|AUTOR_ES]]
+* [[AUTOW|AUTOW_ES]]
+
+### Atributos de objeto
+
+* [[OCLEAR|OCLEAR_ES]]
+* [[OSET|OSET_ES]]
+* [[ONEG|ONEG_ES]]
+
+
+### Acciones que afectan a flags y objetos al tiempo
+
+* [[COPYFO|COPYFO_ES]]
+* [[COPYOF|COPYOF_ES]]
+* [[WEIGH|WEIGH_ES]]
+* [[WHATO|WHATO_ES]]
+* [[WHATOX|WHATOX_ES]]
+* [[WHATOX2|WHATOX2_ES]]
+* [[OBJAT|OBJAT_ES]]
+* [[NPCAT|NPCAT_ES]]

@@ -1,0 +1,31 @@
+### Textos de mensaje
+
+* [WRITE](WRITE_ES)
+* [WRITELN](WRITELN_ES)
+* [RNDWRITE](RNDWRITE_ES)
+* [RNDWRITELN](RNDWRITELN_ES)
+* [TITLE] (TITLE_ES)
+* [MES](MES_ES)
+* [MESSAGE](MESSAGE_ES)
+* [SYMESS](SYMESS_ES)
+* [[SPACE|SPACE_ES]]
+
+### Escritura de flags
+
+* [PRINT](PRINT_ES)
+* [SCORE](SCORE_ES)
+* [TURNS](TURNS_ES)
+
+### Listado de objetos
+
+* [INVEN](INVEN_ES)
+* [LISTAT](LISTAT_ES)
+* [LISTOBJ](LISTOBJ_ES)
+* [LISTNPC](LISTNPC_ES)
+* [LISTCONTENTS](LISTCONTENTS_ES)
+
+### Otros
+
+* [CLS](CLS_ES)
+* [NEWLINE](NEWLINE_ES)
+* [PROMPT](PROMPT_ES) (obsoleto)

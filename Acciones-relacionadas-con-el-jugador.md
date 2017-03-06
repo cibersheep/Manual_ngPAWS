@@ -1,0 +1,4 @@
+
+* [[WEIGHT|WEIGHT_ES]]
+* [[GOTO|GOTO_ES]]
+* [[ABILITY|ABILITY_ES]]
