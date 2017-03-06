@@ -10,7 +10,7 @@ Antes de empezar, si eres o fuiste un usuario de **PAWS,** te recomiendo leer la
 
 ### Guía básica
 
-* Capítulo 1: ¿Qué es ngPAWS?
+* Capítulo 1: [¿Qué es ngPAWS?](/que-es-ngpaws.md)
 * Capítulo 2: [Instalación](/instalacion.md)
 * Capítulo 3: \[La base de datos de la aventura\] \(La base de datos de la aventura\)
 * Capítulo 4: \[La base de datos de inicio\] \(La base de datos de inicio\)

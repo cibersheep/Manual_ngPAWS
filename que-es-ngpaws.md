@@ -1,4 +1,4 @@
-### ¿Qué es ngPAWS?
+### ¿Qué es ngPAWS? {#que-es-ngpaws}
 
 ngPAWS es una herramienta para compilar aventuras conversacionales para poder jugar con ellas en cualquier navegador.
 
