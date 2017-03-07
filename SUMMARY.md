@@ -4,5 +4,6 @@
 * [Inicio](inicio.md)
 * [¿Qué es ngPAWS?](que-es-ngpaws.md)
 * [Instalación](instalacion.md)
+* [La base de datos de la aventura](la-base-de-datos-de-la-aventura.md)
 * [ngPAWS para programadores PAWS](ngpaws-para-programadores-paws.md)
 
