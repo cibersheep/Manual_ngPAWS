@@ -13,7 +13,7 @@ Antes de empezar, si eres o fuiste un usuario de **PAWS,** te recomiendo leer la
 * Capítulo 1: [¿Qué es ngPAWS?](/que-es-ngpaws.md)
 * Capítulo 2: [Instalación](/instalacion.md)
 * Capítulo 3: [La base de datos de la aventura](/la-base-de-datos-de-la-aventura.md)
-* Capítulo 4: \[La base de datos de inicio\] \(La base de datos de inicio\)
+* Capítulo 4: La base de datos de inicio
 * Capítulo 5: \[Respuestas\] \(La tabla de respuestas\)
 * Capítulo 6: \[Eventos\] \(Eventos\)
 * Capítulo 7: \[El bucle principal\] \(El bucle principal\)
