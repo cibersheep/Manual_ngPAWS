@@ -42,7 +42,7 @@ Algunas notas sobre el vocabulario:
 
 ### La sección de localidades \(/LTX\)
 
-Similar a las secciones anteriores, pero para los textos de las localidades, que igualmente quedan numeradas y no puede haber huecos.
+En esta sección se enumeran los textos de las localidades. Se define cada una como «/» seguido del número de localidad y su descripcion en la siguiente línea. Deben ser correlativas por lo que no puede haber huecos.
 
 ```
 /0
@@ -51,7 +51,7 @@ Estás en tu casa, puedes ver una puerta al este.
 Estás en tu jardín, puedes ver la puerta de entrada al oeste.
 ```
 
-Importante: los objetos que son contenedores \(una caja\) o superficies \(una mesa\) utilizan la localidad de igual número para depositar los objetos que tienen dentro o encima. Es por eso que no debe usarse como localidad, aquellas que compartan número con un objeto de ese tipo, o todo objeto puesto en el contenedor o superficie aparecería allí. Como "no usar un número de localidad es incompatible con que los números sean consecutivos, simplemente definiremos una localidad "en blanco". Por ejemplo en los casos anteriores el objeto "caja" es el objeto 1, y la localida 1 es el jardín. Si lo dejaramos así todo lo que metieramos en la caja aparecería en el jardín. Lo que hacemos es "saltarnos" la localida 1 así:
+**Importante**: los objetos que son _contenedores_ \(una caja\) o _superficies_ \(una mesa\) utilizan la localidad de igual número para depositar los objetos que tienen dentro o encima, por lo que, tales números, no deben usarse como localidad. En caso contrario, lo que se metiera o posuera sobre dichos objetos aparecería en la localidad con la que comparte número. Como los número de localidad han de ser consecutivos, simplemente se define una localidad "en blanco" para los objetos contenedores o superficie. Por ejemplo, si definimos un objeto «caja» como **objeto 1** y la localidad 1 es un jardín todo lo que metieramos en la caja aparecería en el jardín. Así, para resolverlo se "salta" la localidad 1 así:
 
 ```
 /0
