@@ -63,9 +63,9 @@ Estás en tu jardín, puedes ver la puerta de entrada al oeste.
 
 ### La sección de conexiones \(/CON\)
 
-Esta seccion detalla las conexiones existentes entre localidades al inicio del juego \(luego pueden cambiarse si por ejemplo abrimos una puerta o dinamitamos una pared\).
+Esta seccion detalla las conexiones existentes entre localidades al **inicio del juego** \(luego pueden cambiarse si, por ejemplo, abrimos una puerta o dinamitamos una pared\).
 
-La seccion es similar a la de localidades, excepto que tras cada número de localidad, hay una serie de conexiones. Los números de localidad deben ser consecutivos, si una localidad no tiene conexiones simplemente se pone su número y se deja en blanco.
+La seccion es similar a la de localidades, excepto que tras cada número de localidad, se enumera una serie de conexiones. Los números de localidad deben ser consecutivos. Si una localidad no tiene conexiones simplemente se pone su número y se deja en blanco.
 
 ```
 /0
@@ -77,11 +77,11 @@ OESTE 0
 ENTRAR 0
 ```
 
-Como veis, nada impide poner más de una conexión que lleve al mismo sitio \(ESTE o SALIR, OESTE o ENTRAR\).
+Como ves, nada impide poner más de una conexión que lleve al mismo sitio \(ESTE o SALIR, OESTE o ENTRAR\).
 
-### La seccion de objetos \(/OTX\)
+### La sección de texto de objetos \(/OTX\)
 
-Es similar a las secciones de mensajes, pero los textos se refieren a cada objeto, quedando así los objetos numerados.
+Es similar a la sección de mensajes pero cada textos se refiere a un objeto, quedando así los objetos numerados.
 
 ```
 /0
@@ -90,36 +90,36 @@ una antorcha
 una caja
 ```
 
-En este caso NO puede haber huecos en el listado, los números deben ser consecutivos.
+En este caso NO puede haber _huecos_ en el listado, los números deben ser consecutivos.
 
-### La sección de objetos 2 \(/OBJ\)
+### La sección de datos de objetos \(/OBJ\)
 
 Además del texto que describe al objeto, es necesario asignarle unas propiedades, y eso es lo que hacemos en esta sección:
 
 * La localidad donde el objeto está cuando empezamos a jugar.
 * El peso del objeto.
-* El nombre \(y si es necesario el adjetivo\) que identificará el objeto en el vocabulario. Por ejemplo "LLAVE" para el objeto "la llave".
+* El nombre \(y si es necesario el adjetivo\) que identificará el objeto en el vocabulario. Por ejemplo «LLAVE» para el objeto «la llave».
 * Los [atributos de objeto](atributos de objeto).
 
-Un objeto puede estar situado inicialmente en algun lugar \(la orilla del río, la habitación amarilla, el hall, etc.\), puede llevarlo el jugador, puede llevarlo puesto, o simplemente no estar accesible al inicio.
+Un objeto puede estar situado al iniciar la partida en un lugar \(la orilla del río, la habitación amarilla, el hall, etc.\), puede llevarlo el jugador, puede llevarlo puesto o simplemente no estar accesible todavía.
 
-ngPAWS tiene tres localidades especiales que pueden ser usadas para decir al sistema que el objeto está en esos sitios especiales:
+**ngPAWS** tiene tres localidades especiales que se pueden usar para decirle al sistema que el objeto está en ellos:
 
-| Localidad especial | Loc \# | shortcut |
-| --- | --- | --- |
+| Localidad especial | Nº delocalidad | Identificador |
+| :--- | :---: | :---: |
 | Llevado por el jugador | 254 | CARRIED |
-| Puesto por el jugador | 253 | WORN |
+| El jugador lo lleva puesto | 253 | WORN |
 | No accesible | 252 | NON\_CREATED |
 
-Cuando defines dónde está un objeot, puedes usar su número de localidad o un identificador de [txtpaws](txtpaws_es).
+Al definir dónde está un objeto, puedes usar su número de localidad o un identificador de [txtpaws](txtpaws_es).
 
-Por otro lado, un objeto puede ser ligero como una pluma, o pesado como un cofre de hierro, y es decisión tuya como autor definir cuanto pesa cada uno. ngPAWS no define una unidad de peso \(gramos, kilos, libras, etc.\), eso es decisión tuya también y utiliza la misma medida para los objetos. Por defecto un jugador puede llevar 10 unidades de peso, pero eso también puede cambiarse, así que es una decisión tuya según el contexto.
+Por otro lado, un objeto puede ser ligero como una pluma o pesado como un cofre de hierro, y es decisión tuya como autor definir cuánto pesa cada uno. En **ngPAWS** no se define una unidad de peso \(gramos, kilos, libras, etc.\), eso es decisión tuya también, como la de utilizar la misma medida para todos los objetos. Por defecto, un jugador puede llevar 10 unidades de peso pero eso también puede cambiarse según el contexto.
 
-Un objeto puede ser referido como "LINTERNA"  para el objeto "la linterna" o añadiendo un adjetivo como en "la caja blanca" que pondríamos "CAJA" y "BLANCA". Normalmente no nos molestaremos en añadir adjetivos salvo que sea necesario para diferenciar dos objetos similares, por ejemplo si tenemos una caja blanca y otra roja.
+Puedes referirte un objeto «la linterna» como «LINTERNA» o añadiendo un adjetivo como «la caja blanca» que definiríamos con el sustantivo «CAJA» y el adjetivo «BLANCA». Normalmente no nos molestaremos en añadir adjetivos salvo que sea necesario para diferenciar dos objetos similares, por ejemplo si tenemos una caja blanca y otra roja.
 
-Finalmente, los objetos pueden tener atributos, que en ngPWS es algo que un objeto tiene o no. Por ejemplo podría tener un atributo "grande", y un objeto puede tener el atributo y por tanto ser grande, o no tenerlo y no ser grande, pero no puede ser que sea "un 20% grande", o lo es o no lo es.
+Finalmente, en **ngPWS,** los objetos pueden tener un atributo o no. Por ejemplo, el atributo «grande», un objeto puede tener dicho atributo y por tanto ser _grande,_ o no tenerlo y _no ser grande_ pero no puede ser _un 20% grande. _ Es todo o nada.
 
-ngPAWS incluye algunos [atributos estándar](atributos de objeto), que son manejados de manera automática por la base de datos de inicio.
+**ngPAWS** incluye algunos [atributos estándar](atributos de objeto) que son manejados de manera automática por la _base de datos de inicio._
 
 Puedes asignar esos atributos en esta sección, y luego puedes usarlos para tus propias respuestas, comprobando si un objeto tiene o no ese atributo. Por ejemplo si el jugador dice "DAR LUZ A LA CAVERNA CON XXXXX" podemos comprobar si XXXX es un objeto que tiene el atributo de "dar luz" y en es caso permitir que se haga la luz, denegandolo en caso contrario \("DAR LUZ A LA CAVERNA CON EL ALTAVOZ"\)
 
