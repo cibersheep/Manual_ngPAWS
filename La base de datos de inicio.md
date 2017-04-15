@@ -117,17 +117,15 @@ Por otro lado, un objeto puede ser ligero como una pluma o pesado como un cofre 
 
 Puedes referirte un objeto «la linterna» como «LINTERNA» o añadiendo un adjetivo como «la caja blanca» que definiríamos con el sustantivo «CAJA» y el adjetivo «BLANCA». Normalmente no nos molestaremos en añadir adjetivos salvo que sea necesario para diferenciar dos objetos similares, por ejemplo si tenemos una caja blanca y otra roja.
 
-Finalmente, en **ngPWS,** los objetos pueden tener un atributo o no. Por ejemplo, el atributo «grande», un objeto puede tener dicho atributo y por tanto ser _grande,_ o no tenerlo y _no ser grande_ pero no puede ser _un 20% grande. _ Es todo o nada.
+Finalmente, en **ngPWS,** los objetos pueden tener un atributo o no. Por ejemplo, el atributo «grande», un objeto puede tener dicho atributo y por tanto ser _grande,_ o no tenerlo y _no ser grande_ pero no puede ser _un 20% grande. _Es todo o nada.
 
-**ngPAWS** incluye algunos [atributos estándar](atributos de objeto) que son manejados de manera automática por la _base de datos de inicio._
+**ngPAWS** incluye algunos [atributos estándar](atributos de objeto) que son manejados de manera automática por la _base de datos de inicio._ Puedes asignarlos y luego usarlos en tus propias respuestas, comprobando si un objeto tiene o no ese atributo. Por ejemplo, si el jugador dice «DAR LUZ A LA CAVERNA CON XXXXX» podemos comprobar si _XXXX_ es un objeto que tiene el atributo de «dar luz» y en ese caso permitir ver e impedirlo en caso contrario si por ejemplo se intentar «DAR LUZ A LA CAVERNA CON EL ALTAVOZ».
 
-Puedes asignar esos atributos en esta sección, y luego puedes usarlos para tus propias respuestas, comprobando si un objeto tiene o no ese atributo. Por ejemplo si el jugador dice "DAR LUZ A LA CAVERNA CON XXXXX" podemos comprobar si XXXX es un objeto que tiene el atributo de "dar luz" y en es caso permitir que se haga la luz, denegandolo en caso contrario \("DAR LUZ A LA CAVERNA CON EL ALTAVOZ"\)
+**ngPAWS** te permite además definir tus propios atributos. En ese caso tú decides para qué usarlos. Por ejemplo, puedes decidir que el jugador debe cruzar una pequeña grieta en una cueva pero no puede pasar si lleva objetos grandes. Si creas un atributo «grande» y se lo asignas a aquellos objetos que lo sean, luego podrás comprobar si el jugador lleva alguno de ellos y responder con el mensaje "No puedes pasar, algunas cosas que llevas no caben".
 
-ngPAWS te permite además definir tus propios atributos. En ese caso tú decides para qué usarlos. Por ejemplo puedes decidir que el jugador debe cruzar una pequeña grieta en una cueva, pero no puede pasar si lleva objetos grandes. Si creas un atributo "grande" y se lo asignas a aquellos objetos que lo sean, luego podrás comprobar si el jugador lleva alguno de ellos, y poner el mensaje "No puedes pasar, algunas cosas que llevas no caben." si lleva alguno.
+Hay 64 \(del 0 al 63\) atributos diferentes, aunque los primeros están usados ya por los atributos estándar de ngPAWS, el resto están libres. Si vas a crear tu propio atributo, te recomendamos que empieces por el 63, luego si necesitas otro, usa el 62, etc.
 
-Hay 64 \(del 0 al 63\) diferentes atributos, aunque los primeros están usados ya por los atributos estándar de ngPAWS, el resto están libres. Si vas a crear tu propio atributo, te recomendamos que empieces por el 63, luego si necesitas otro el 63, etc.
-
-Esto sería una sección de objetos 2 típica:
+Esto sería una sección de _datos de objetos_ típica:
 
 ```
 /0    CARRIED        1        ANTORCHA   _           ATTR aLight aFemale
@@ -137,7 +135,7 @@ Esto sería una sección de objetos 2 típica:
 /4    12             3        MANDOBLE   _           ATTR
 ```
 
-¿Qué tenemos aquí?
+#### ¿Qué tenemos aquí?
 
 En la primer fila vemos los datos para el objeto 0, al cual podemos referirnos por el nombre "ANTORCHA" \(y como no hace flata adjetivo ponemos un caracter de subrayado en su lugar, que significa "cualquiera"\), pesa una unidad, el jugador lo lleva al empezar \(CARRIED\), produce luz, y es femenino. Es importante marcar los objetos con su género y número. Por defecto son neutros y singulares, por lo que ordenes como "TOMAR LLAVE" producirían el texto "Tomas un llave."  si no especificamos que llave es femenino. Así mismo "TOMAR CARTAS" producirían el texto "Tomas un cartas" si no especificamos que es fememino y plural. Si estamos haciendo una aventura en inglés, hay que especificar también cuando es masculino, porque el inglés diferencia los géneros neutros y masculino, y no es lo mismo decir "HIM" que "IT".
 
