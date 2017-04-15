@@ -1,12 +1,12 @@
 # La base de datos de inicio
 
-Para que el autor de una nueva aventura no tenga que crearla desde cero, se ha creado lo que llamamos _la base de datos de inicio, _que no es más que una aventura básica para poder ser usada como esquema. Esta aventura ya contiene un objeto y una localidad de ejemplo, bastante vocabulario y respuestas predeterminadas para las acciones más comunes que pueda teclear el jugador  \(tomar, dejar, poner, atacar, hablar, saltar, etc.\).
+Para que el autor de una nueva aventura no tenga que crearla desde cero, se ha creado lo que llamamos \_la base de datos de inicio, \_que no es más que una aventura básica para poder ser usada como esquema. Esta aventura ya contiene un objeto y una localidad de ejemplo, bastante vocabulario y respuestas predeterminadas para las acciones más comunes que pueda teclear el jugador  \(tomar, dejar, poner, atacar, hablar, saltar, etc.\).
 
 Se usará esta base de datos cada vez que se cree una aventura nueva con el editor gráfico. De forma alternativa, se puede hacer una copia de la carpeta descargada para cada aventura.
 
 ![](/assets/Nueva aventura.png)
 
-Si se abre el fichero con extensión **txp** desde el editor gráfico, se creará una solapa para cada sección. En el caso de usar un editor de texto cualquiera, veremos cada una de estas secciones es precedida por el símbolo «/». 
+Si se abre el fichero con extensión **txp** desde el editor gráfico, se creará una solapa para cada sección. En el caso de usar un editor de texto cualquiera, veremos cada una de estas secciones es precedida por el símbolo «/».
 
 Para que esta guía sirva para todos el mundo, encontraréis el nombre de cada sección del editor gráfico y entre paréntesis lo que se muestra en el fichero de texto.
 
@@ -24,7 +24,7 @@ Esta sección se mantiene por compatibilidad con otros sistemas como _PAW PC_ o 
 
 ### La sección de vocabulario \(/VOC\)
 
-En esta sección se incluyen las palabras que entiende el intérprete \(o _parser_ en inglés\). Se trata de una lista de palabras, seguida cada una de un número y un tipo. Los **números pueden ir de 0 a 254** y los **tipos pueden ser **_**verb**_** \(verbo\), **_**noun**_** \(sustantivo\), **_**adjecti**_**ive \(adjetivo\), **_**adverb**_** \(adverbio\), **_**preposition**_** \(preposición\) y **_**conjunction**_** \(conjunción\).** 
+En esta sección se incluyen las palabras que entiende el intérprete \(o _parser_ en inglés\). Se trata de una lista de palabras, seguida cada una de un número y un tipo. Los **números pueden ir de 0 a 254** y los **tipos pueden ser **_**verb**_** \(verbo\), **_**noun**_** \(sustantivo\), **_**adjecti**_**ive \(adjetivo\), **_**adverb**_** \(adverbio\), **_**preposition**_** \(preposición\) y **_**conjunction**_** \(conjunción\).**
 
 Para que dos palabras sean sinónimas y por tanto, se puedan usar indistintamente, se les asigna a ambas el mismo tipo y número \(por ejemplo "puñal" y "navaja" serán el _sustantivo_ 178\).
 
@@ -39,41 +39,6 @@ Algunas notas sobre el vocabulario:
 * Los sustantivos con número **por debajo del 20 son considerados «convertibles»** que quiere decir que, si no hay verbo en la frase, se _convertirán_ en el verbo. De esa manera «norte» e «ir norte» se comportarán igual.
 * Los verbos cuyo número sea **inferior a 14 son considerados verbos de dirección.** De modo que si el autor no da una respuesta específica a los mismos \(ej: «Ir al norte sería precipitado.»\) el sistema comprobará las conexiones entre localidades y tratará de mover el personaje si la localidad actual tiene una salida en esa dirección.
 * **Puedes dejar **_**huecos**_ en el vocabulario, es decir, no es necesario que los números en el mismo sean consecutivos.
-
-### Los mensajes del sistema \(/STX\)
-
-**Los mensajes del sistema** son una serie de mensajes que se definen comenzando por un caracter «/» y un número. Este número se corresponde al _número de mensaje._
-
-Cada uno de estos mensakes es una respuesta por defecto del sistema, en general heredadas de PAW y otros sistemas anteriores. Puedes modificarlos si crees que son demasiado serios, demasiado informales o que simplemente no encajan con el tono de tu aventura. Asegúrate de que mantienen un sentido en su conjunto.
-
-Normalmente no tiene es necesario añadir más mensajes de sistema de los que hay. De hecho, es poco recomendable porque podrían entrar en conflicto con futuras expansiones de **ngPAWS**.
-
-### Los mensajes de usuario \(/MTX\)
-
-Son mensajes como los anteriores pero que pueden ser definidos por el usuario. En realidad este legado de PAWS es muy poco usado en ngpAWS, porque puedes hacer directamente WRITE:
-
-`WRITE "You open the door."`
-
-Antes, definias el mensaje 50 en la tabla de mensajes, y luego ponías:
-
-`MESSAGE 50`
-
-En cualquier caso, hoy en día aún hay casos en los que puede ser útil un mensaje de este tipo, pero no es el momento de explicarlo, por ser bastante avanzado.
-
-Los números de mensajes no tienen por que ser consecutivos, puede haber huecos.
-
-### La seccion de objetos \(/OTX\)
-
-Es similar a las secciones de mensajes, pero los textos se refieren a cada objeto, quedando así los objetos numerados.
-
-```
-/0
-una antorcha
-/1
-una caja
-```
-
-En este caso NO puede haber huecos en el listado, los números deben ser consecutivos
 
 ### La sección de localidades \(/LTX\)
 
@@ -112,7 +77,20 @@ OESTE 0
 ENTRAR 0
 ```
 
-Como veis, nada impide poner más de una conexión que lleve al mismo sitio \(ESTE o SALIR, OESTE o ENTRAR\)
+Como veis, nada impide poner más de una conexión que lleve al mismo sitio \(ESTE o SALIR, OESTE o ENTRAR\).
+
+### La seccion de objetos \(/OTX\)
+
+Es similar a las secciones de mensajes, pero los textos se refieren a cada objeto, quedando así los objetos numerados.
+
+```
+/0
+una antorcha
+/1
+una caja
+```
+
+En este caso NO puede haber huecos en el listado, los números deben ser consecutivos.
 
 ### La sección de objetos 2 \(/OBJ\)
 
@@ -184,6 +162,28 @@ Si hubieramos definido un atributo personal llamado aBig \(grande\), deberíamos
 **Importante:**
 
 * Para poder usar cualquier palabra en esta sección, debe estar definida previamente como nombre \(o adjetivo\) en la sección de vocabulario.
+
+### Los mensajes de usuario \(/MTX\)
+
+Son mensajes como los anteriores pero que pueden ser definidos por el usuario. En realidad este legado de PAWS es muy poco usado en ngpAWS, porque puedes hacer directamente WRITE:
+
+`WRITE "You open the door."`
+
+Antes, definias el mensaje 50 en la tabla de mensajes, y luego ponías:
+
+`MESSAGE 50`
+
+En cualquier caso, hoy en día aún hay casos en los que puede ser útil un mensaje de este tipo, pero no es el momento de explicarlo, por ser bastante avanzado.
+
+Los números de mensajes no tienen por que ser consecutivos, puede haber huecos.
+
+### Los mensajes del sistema \(/STX\)
+
+**Los mensajes del sistema** son una serie de mensajes que se definen comenzando por un caracter «/» y un número. Este número se corresponde al _número de mensaje._
+
+Cada uno de estos mensakes es una respuesta por defecto del sistema, en general heredadas de PAW y otros sistemas anteriores. Puedes modificarlos si crees que son demasiado serios, demasiado informales o que simplemente no encajan con el tono de tu aventura. Asegúrate de que mantienen un sentido en su conjunto.
+
+Normalmente no tiene es necesario añadir más mensajes de sistema de los que hay. De hecho, es poco recomendable porque podrían entrar en conflicto con futuras expansiones de **ngPAWS**.
 
 ### Los procesos \(/PRO x\)
 
