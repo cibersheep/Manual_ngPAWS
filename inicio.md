@@ -12,7 +12,7 @@ Antes de empezar, si eres o fuiste un usuario de **PAWS,** te recomiendo leer la
 
 * Capítulo 1: [¿Qué es ngPAWS?](/que-es-ngpaws.md)
 * Capítulo 2: [Instalación](/instalacion.md)
-* Capítulo 3: \[La base de datos de la aventura\] \(La base de datos de la aventura\)
+* Capítulo 3: [La base de datos de la aventura](/la-base-de-datos-de-la-aventura.md)
 * Capítulo 4: \[La base de datos de inicio\] \(La base de datos de inicio\)
 * Capítulo 5: \[Respuestas\] \(La tabla de respuestas\)
 * Capítulo 6: \[Eventos\] \(Eventos\)
@@ -35,7 +35,7 @@ Además, existe una serie de microtutoriales que explican cómo hacer las tareas
 
 * \[\[La Torre\]\]
 * \[\[microtutoriales\]\]
-* \[\[Tutorial clásico\|[http://www.ngpaws.com/wikires/PAWS\_Introduccion.pdf\]\](http://www.ngpaws.com/wikires/PAWS_Introduccion.pdf]\)\] \(empezar a leer en el punto "El Guion inicial"\)
+* \[\[Tutorial clásico\|[http://www.ngpaws.com/wikires/PAWS\_Introduccion.pdf](http://www.ngpaws.com/wikires/PAWS_Introduccion.pdf]\)\] \(empezar a leer en el punto "El Guion inicial"\)
 
 ### Tutorial en vídeo
 
