@@ -117,7 +117,7 @@ Por otro lado, un objeto puede ser ligero como una pluma o pesado como un cofre 
 
 Puedes referirte un objeto «la linterna» como «LINTERNA» o añadiendo un adjetivo como «la caja blanca» que definiríamos con el sustantivo «CAJA» y el adjetivo «BLANCA». Normalmente no nos molestaremos en añadir adjetivos salvo que sea necesario para diferenciar dos objetos similares, por ejemplo si tenemos una caja blanca y otra roja.
 
-Finalmente, en **ngPWS,** los objetos pueden tener un atributo o no. Por ejemplo, el atributo «grande», un objeto puede tener dicho atributo y por tanto ser _grande,_ o no tenerlo y _no ser grande_ pero no puede ser _un 20% grande. _Es todo o nada.
+Finalmente, en **ngPWS,** los objetos pueden tener un atributo o no. Por ejemplo, el atributo «grande», un objeto puede tener dicho atributo y por tanto ser _grande,_ o no tenerlo y _no ser grande_ pero no puede ser \_un 20% grande. \_Es todo o nada.
 
 **ngPAWS** incluye algunos [atributos estándar](atributos de objeto) que son manejados de manera automática por la _base de datos de inicio._ Puedes asignarlos y luego usarlos en tus propias respuestas, comprobando si un objeto tiene o no ese atributo. Por ejemplo, si el jugador dice «DAR LUZ A LA CAVERNA CON XXXXX» podemos comprobar si _XXXX_ es un objeto que tiene el atributo de «dar luz» y en ese caso permitir ver e impedirlo en caso contrario si por ejemplo se intentar «DAR LUZ A LA CAVERNA CON EL ALTAVOZ».
 
@@ -137,17 +137,19 @@ Esto sería una sección de _datos de objetos_ típica:
 
 #### ¿Qué tenemos aquí?
 
-En la primer fila vemos los datos para el objeto 0, al cual podemos referirnos por el nombre "ANTORCHA" \(y como no hace flata adjetivo ponemos un caracter de subrayado en su lugar, que significa "cualquiera"\), pesa una unidad, el jugador lo lleva al empezar \(CARRIED\), produce luz, y es femenino. Es importante marcar los objetos con su género y número. Por defecto son neutros y singulares, por lo que ordenes como "TOMAR LLAVE" producirían el texto "Tomas un llave."  si no especificamos que llave es femenino. Así mismo "TOMAR CARTAS" producirían el texto "Tomas un cartas" si no especificamos que es fememino y plural. Si estamos haciendo una aventura en inglés, hay que especificar también cuando es masculino, porque el inglés diferencia los géneros neutros y masculino, y no es lo mismo decir "HIM" que "IT".
+En la primer fila vemos los datos para el objeto 0. Objeto definido por el nombre «ANTORCHA» \(y como no le hace falta un adjetivo, ponemos un caracter de subrayado en su lugar que significa uno «cualquiera»\), que pesa una unidad, que está en la _localidad_ CARRIED \(que significa que el jugador la lleva consigo al empezar\), que produce luz \(aLight\), y que es femenino \(aFemale\).
 
-En la segunda fila, al objeto mochila se le puede referencia por "MOCHILA" sin adjetivo, pesa 1 y es prenda, contenedor y femenino. El jugador lleva puesta la mochila al empezar.
+Es importante marcar los objetos con su género y número. Por defecto son neutros y singulares, por lo que órdenes como "TOMAR LLAVE" produciría el texto «Tomas _un_ llave.»  si no especificamos que **llave** es femenino. Así mismo, «TOMAR CARTAS» produciría el texto «Tomas un cartas.» si no especificamos que es fememino y plural. Si estamos haciendo una aventura en inglés, hay que especificar también cuándo el objeto es masculino, porque en inglés se diferencian los géneros neutros y masculino, y no es lo mismo decir «HIM» que «IT».
 
-El tercer objeto \(objeto número 2\), puede ser referido por "CAJA BLANCA", pesa una unudad y está en la localidad 7. Es un contenedor femenino.
+En la segunda fila, se define el objeto mochila como «MOCHILA», sin adjetivo. Que pesa 1 y es una prenda \(aWear\), un contenedor \(aContainer\) y femenino \(aFemalie\). También se especifica que el jugador lleva puesta la mochila al empezar \(WORN\).
 
-El siguiente objeto \(el 3\) es otra caja, esta vez con el adjetivo "ROJA". Es similar a la anterior excepto que al empezar está en la localidad 252, que es lo mismo que poner NON\_CREATED, es decir, en ninguna parte.
+El tercer objeto \(el número 2\), queda definido como «CAJA BLANCA», que pesa una unidad y que está en la localidad 7. Tambíen que es un contenedor \(aWear\) femenino \(aFemale\).
 
-El objeto 4 \(fila 5\) es un mandoble, referido por la palabra "MANDOBLE", que inicialmente está en la localidad 12 y no tiene ningún atributo en especial \(con lo cual es considerado neutro y en español funcionará bien\). Tampoco  pasaría  nada si le hubieramos puesto el atributo "aMale", pero he preferido dejarlo en blanco para que veáis que es obligatorio poner ATTR aunque no haya ningún atributo.
+El siguiente objeto \(el número 3\) es otra caja, esta vez definida con el adjetivo «ROJA». Es similar a la anterior excepto que al empezar la prtida está en la localidad 252 \(que es lo mismo que poner NON\_CREATED, es decir, que no está _en ninguna parte_\).
 
-Si hubieramos definido un atributo personal llamado aBig \(grande\), deberíamos haber definido esto así, suponiendo que las cajas y la antorcha son pequeñas:
+El objeto 4 \(fila 5\) es un mandoble, definido por la palabra «MANDOBLE», que inicialmente está en la localidad 12 y no tiene ningún atributo en especial \(con lo que es considerado neutro y en español funcionará bien\). Tampoco  pasaría  nada si le hubieramos puesto el atributo aMale pero he preferido dejarlo en blanco para que veáis** que es obligatorio poner ATTR** aunque no haya ningún atributo.
+
+Si hubieramos definido un atributo personal, uno creado por nosotros, llamado aBig \(grande\), hubiese quedado así \(y suponiendo que las cajas y la antorcha son pequeñas\):
 
 ```
 /0    CARRIED        1        ANTORCHA   _           ATTR aLight aFemale
@@ -157,21 +159,24 @@ Si hubieramos definido un atributo personal llamado aBig \(grande\), deberíamos
 /4    12             3        MANDOBLE   _           ATTR aBig
 ```
 
-**Importante:**
-
-* Para poder usar cualquier palabra en esta sección, debe estar definida previamente como nombre \(o adjetivo\) en la sección de vocabulario.
+**Importante: ** Para poder usar cualquier palabra en esta sección, debe estar definida previamente como sustantivo \(o adjetivo\) en la sección de vocabulario \(/VOC\).
 
 ### Los mensajes de usuario \(/MTX\)
 
-Son mensajes como los anteriores pero que pueden ser definidos por el usuario. En realidad este legado de PAWS es muy poco usado en ngpAWS, porque puedes hacer directamente WRITE:
+Son mensajes definidos por el usuario de la siguiente forma: «/» seguida del número de mensaje y, en la siguiente línea, el texto a mostrar. En realidad esto, un legado de PAWS, se usa muy poco en **ngpAWS.** Es más común que los mensajes se escriban directamente con la instrucción WRITE \(muestra el texto\) o WRITELN \(muestra el texto y hace saltar a la línea siguiente\):
 
-`WRITE "You open the door."`
+`WRITE "Abres la puerta."`
 
-Antes, definias el mensaje 50 en la tabla de mensajes, y luego ponías:
+Antes se definía como mensaje 50 en la tabla de mensajes
+
+`/50   
+Abres la puerta.`
+
+Luego en un condacto, se hacía que se mostrara dicho mensaje poniendo:
 
 `MESSAGE 50`
 
-En cualquier caso, hoy en día aún hay casos en los que puede ser útil un mensaje de este tipo, pero no es el momento de explicarlo, por ser bastante avanzado.
+En cualquier caso, hoy en día aún hay casos en los que puede ser útil un mensaje de este tipo pero este no es el momento de explicarlo por ser bastante avanzado.
 
 Los números de mensajes no tienen por que ser consecutivos, puede haber huecos.
 
@@ -179,21 +184,19 @@ Los números de mensajes no tienen por que ser consecutivos, puede haber huecos.
 
 **Los mensajes del sistema** son una serie de mensajes que se definen comenzando por un caracter «/» y un número. Este número se corresponde al _número de mensaje._
 
-Cada uno de estos mensakes es una respuesta por defecto del sistema, en general heredadas de PAW y otros sistemas anteriores. Puedes modificarlos si crees que son demasiado serios, demasiado informales o que simplemente no encajan con el tono de tu aventura. Asegúrate de que mantienen un sentido en su conjunto.
+Cada uno de estos mensajes es una respuesta por defecto del sistema, en general heredadas de PAW y otros sistemas anteriores. Puedes modificarlos si crees que son demasiado serios, demasiado informales o que simplemente no encajan con el tono de tu aventura. Asegúrate de que mantienen son coherentes en su conjunto.
 
-Normalmente no tiene es necesario añadir más mensajes de sistema de los que hay. De hecho, es poco recomendable porque podrían entrar en conflicto con futuras expansiones de **ngPAWS**.
+Normalmente no es necesario añadir más mensajes de sistema de los que hay. De hecho, es poco recomendable porque podrían entrar en conflicto con futuras expansiones de **ngPAWS**.
 
-### Los procesos \(/PRO x\)
+### Las respuesta y procesos \(/PRO x\)
 
-Los procesos es donde ocurren las respuestas a lo que escribe el jugador, debes añadirlas en el proceso 0, o tabla de respuestas.
+La sección **respuestas** es un proceso y es en dichos procesos donde ocurren las contestaciones a lo que escribe el jugador, debes añadirlas en el Proceso 0 \(RESP\) o tabla de respuestas.
 
-Hay algunos procesos con funciones predefinidas
+Algunos de los procesos tienen funciones predefinidas
 
-* Proceso 0: la tabla de respuestas
-* Process 1: eventos que ocurren sin la acción del jugador tras describir una localidad
-* Process 2: eventos que courren sin la acción del jugador tras cada orden del mismo
+* Proceso 0: la tabla de respuestas.
+* Proceso 1: eventos que ocurren **sin la acción del jugador** y tras describir una localidad.
+* Proceso 2: eventos que courren **sin la acción del jugador** y tras cada una de sus órdenes
 
 Lo detallaremos mejor en el siguiente capítulo.
-
-[Ir al siguiente capítulo: La tabla de respuestas](La tabla de respuestas)
 
