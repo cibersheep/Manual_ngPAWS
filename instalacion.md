@@ -20,7 +20,7 @@ Para crear tu propio juego o historia, tendrás que instalar **ngPAWS** primero.
 
 3. En la carpeta que has creado teclea `txtpaws code.txp`. Si no se producen errores habrán aparecido algunos ficheros, incluyendo uno llamado `code.sce`. Si en el terminal te aparece un mensaje que dice que no se encuentra txtpaws, asegúrate de haber añadido la carpeta de ngPAWS al path.
 
-   1. También puedes llamar a txtpaws con la ruta completa `~/ruta/completa/txtpaws code.txp` o entrando en la carpeta desde la terminal `cd ~/ruta-a-la-carpeta` y luego `./txtpaws ruta-de-la-carpeta-donde-está/code.txp`.
+   1. También puedes llamar a txtpaws con la ruta completa `~/ruta-completa/txtpaws code.txp` o entrando en la carpeta desde la terminal `cd ~/ruta-a-la-carpeta-txtpaws` y luego `./txtpaws -I.ruta-carpeta-aventura/dat/ ruta-carpeta-aventura/code.txp`.
 
 4. Ahora teclea: `ngpc code.sce` \(añadiendo la ruta completa a la carpeta o `./ngpc ruta-de-la-carpeta-donde-está/code.sce`\). Si no se muestra ningún error, un fichero llamado `code.js` será creado. En ese momento puedes abrir el fichero `index.html` con tu navegador favorito para jugar.
 
