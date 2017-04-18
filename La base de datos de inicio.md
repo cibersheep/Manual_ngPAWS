@@ -10,7 +10,7 @@ Si se abre el fichero con extensión **txp** desde el editor gráfico, se crear�
 
 Para que esta guía sirva para todos el mundo, encontraréis el nombre de cada sección del editor gráfico y entre paréntesis lo que se muestra en el fichero de texto.
 
-### La sección de definiciones \(-\)
+### La sección de definiciones \(-\) {#la-seccion-de-definiciones}
 
 En el editor de textos se encuentra al principio, antes de la sección **/CTL**.
 
@@ -169,7 +169,7 @@ Son mensajes definidos por el usuario de la siguiente forma: «/» seguida del n
 
 Antes se definía como mensaje 50 en la tabla de mensajes
 
-`/50     
+`/50       
 Abres la puerta.`
 
 Luego en un condacto, se hacía que se mostrara dicho mensaje poniendo:
