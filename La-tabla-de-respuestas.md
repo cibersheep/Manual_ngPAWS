@@ -1,4 +1,4 @@
-# La tabla de respuestas
+## La tabla de respuestas
 
 **ngPAWS** facilita un sencillo lenguaje de programación para que puedas generar las respuestas que dará el sistema al jugador. Si programar no es lo tuyo, siempre puedes usar \[\[el asistente de puzles\]\], que te permitirá añadir puzles pero **ngPAWS** programará por ti \(tú solo tienes que decirle qué condiciones deben cumplirse para que el jugador tenga éxito y qué hacer si lo tiene\).
 

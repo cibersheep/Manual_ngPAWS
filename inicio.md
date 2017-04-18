@@ -13,8 +13,8 @@ Antes de empezar, si eres o fuiste un usuario de **PAWS,** te recomiendo leer la
 * Capítulo 1: [¿Qué es ngPAWS?](/que-es-ngpaws.md)
 * Capítulo 2: [Instalación](/instalacion.md)
 * Capítulo 3: [La base de datos de la aventura](/la-base-de-datos-de-la-aventura.md)
-* Capítulo 4: La base de datos de inicio
-* Capítulo 5: \[Respuestas\] \(La tabla de respuestas\)
+* Capítulo 4: [La base de datos de inicio](/La base de datos de inicio.md)
+* Capítulo 5: [La tabla de respuestas](/La-tabla-de-respuestas.md)
 * Capítulo 6: \[Eventos\] \(Eventos\)
 * Capítulo 7: \[El bucle principal\] \(El bucle principal\)
 * Capítulo 8: \[Los flags\] \(Los flags\)
@@ -24,7 +24,8 @@ Antes de empezar, si eres o fuiste un usuario de **PAWS,** te recomiendo leer la
 * Capítulo 9: \[El proceso interrupción\]\(El proceso interrupción\)
 * Capítulo 10: \[Depurando errores con la consola javascript\]\(Depurando errores con la consola javascript\)
 * Capítulo 11: \[\[Plugins y extensiones de ngPAWS\]\]
-* ### Tutoriales
+
+### Tutoriales
 
 Existen dos tutoriales para **ngPAWS:**
 
@@ -47,7 +48,7 @@ El editor de **ngPAWS** trae incorporado un _asistente de puzles_ que te puede e
 
 \[\[El asistente de puzles\]\]
 
-### Mejorando **ngPAWS** \(solo para programadores javascript\)
+### Mejorando **ngPAWS** \(solo si sabes programar en javascript\)
 
 Es posible mejorar **ngPAWS** añadiendo funcionalidades, _condactos,_ librerías, etc. pero para ello es necesario saber programar en javascript. Si eres nuevo en **ngPAWS** olvídate de esto por ahora, porque es muy probable que no lo necesites nunca.
 
@@ -76,14 +77,14 @@ Quiero agradecer...
 * A Graeme Yeandle y Tim Gilberts, Tim Gilberts y Graeme Yeandle, por crear **PAWS.**
 * Yokiyoki, por crear **Paguaglus,** ayudar con **Superglús,** y en el fondo estar en el origen de **ngPAWS.**
 * Baltasarq, por crear el preporcesador txtpaws, sin él **ngPAWS** sería realmente difícil de usar.
-* Radin, por expandir... bueno Crear ... la base de datos de inicio en español.
-* Jay Salvat, por la librería **Buzz** \(sonido javascript\)
-* La jQuery Foundation, por crear **jQuery**
-* dddddd, porque sugirió el nombre de esta herramienta
+* Radin, por expandir... bueno, **crear** la base de datos de inicio en español.
+* Jay Salvat, por la librería **Buzz** \(sonido javascript\).
+* La jQuery Foundation, por crear **jQuery.**
+* dddddd, porque sugirió el nombre de esta herramienta.
 * A los otros que sugirieron otros nombre que finalmente no fueron elegidos.
 * Los logotipos de este documento incluyen el logo de Superglús y otros creados a partir de iconos de:
-  * Pluma. Licencia CC\_By Joris Hoogendoorn
-  * Espada. Licencia CC-By Ilho Byun
+  * Pluma. Licencia CC\_By Joris Hoogendoorn.
+  * Espada. Licencia CC-By Ilho Byun.
 
 ![](/assets/logo-header.svg)
 
