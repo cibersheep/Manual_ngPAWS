@@ -41,7 +41,7 @@ LLORAR _
  DONE
 
 _ PLATANO
- WRITELN "Hmmmm... adoras los plátanos, ¡ojala tuvieras uno a mano!."
+ WRITELN "Hmmmm... adoras los plátanos, ¡ojalá tuvieras uno a mano!."
  DONE
 ```
 
