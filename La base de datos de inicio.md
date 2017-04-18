@@ -1,4 +1,4 @@
-# La base de datos de inicio
+# La base de datos de inicio {#la-base-de-datos-de-inicio}
 
 Para que el autor de una nueva aventura no tenga que crearla desde cero, se ha creado lo que llamamos \_la base de datos de inicio, \_que no es más que una aventura básica para poder ser usada como esquema. Esta aventura ya contiene un objeto y una localidad de ejemplo, bastante vocabulario y respuestas predeterminadas para las acciones más comunes que pueda teclear el jugador  \(tomar, dejar, poner, atacar, hablar, saltar, etc.\).
 
@@ -166,11 +166,11 @@ Si hubieramos definido un atributo personal, uno creado por nosotros, llamado aB
 Son mensajes definidos por el usuario de la siguiente forma: «/» seguida del número de mensaje y, en la siguiente línea, el texto a mostrar. En realidad esto, un legado de PAWS, se usa muy poco en **ngpAWS.** Es más común que los mensajes se escriban directamente con la instrucción WRITE \(muestra el texto\) o WRITELN \(muestra el texto y hace saltar a la línea siguiente\):  
 `ABRIR PUERTA`
 
- ` WRITE "Abres la puerta."`
+`WRITE "Abres la puerta."`
 
 Antes se definía como mensaje 50 en la tabla de mensajes
 
-`/50       `
+`/50`
 
 `Abres la puerta.`
 
@@ -178,7 +178,7 @@ Luego en un condacto, se hacía que se mostrara dicho mensaje poniendo:
 
 `ABRIR PUERTA`
 
-  ` MESSAGE 50`
+`MESSAGE 50`
 
 En cualquier caso, hoy en día aún hay casos en los que puede ser útil un mensaje de este tipo pero este no es el momento de explicarlo por ser bastante avanzado.
 
