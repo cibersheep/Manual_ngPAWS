@@ -163,18 +163,22 @@ Si hubieramos definido un atributo personal, uno creado por nosotros, llamado aB
 
 ### Los mensajes de usuario \(/MTX\)
 
-Son mensajes definidos por el usuario de la siguiente forma: «/» seguida del número de mensaje y, en la siguiente línea, el texto a mostrar. En realidad esto, un legado de PAWS, se usa muy poco en **ngpAWS.** Es más común que los mensajes se escriban directamente con la instrucción WRITE \(muestra el texto\) o WRITELN \(muestra el texto y hace saltar a la línea siguiente\):
+Son mensajes definidos por el usuario de la siguiente forma: «/» seguida del número de mensaje y, en la siguiente línea, el texto a mostrar. En realidad esto, un legado de PAWS, se usa muy poco en **ngpAWS.** Es más común que los mensajes se escriban directamente con la instrucción WRITE \(muestra el texto\) o WRITELN \(muestra el texto y hace saltar a la línea siguiente\):  
+`ABRIR PUERTA`
 
-`WRITE "Abres la puerta."`
+ ` WRITE "Abres la puerta."`
 
 Antes se definía como mensaje 50 en la tabla de mensajes
 
-`/50       
-Abres la puerta.`
+`/50       `
+
+`Abres la puerta.`
 
 Luego en un condacto, se hacía que se mostrara dicho mensaje poniendo:
 
-`MESSAGE 50`
+`ABRIR PUERTA`
+
+  ` MESSAGE 50`
 
 En cualquier caso, hoy en día aún hay casos en los que puede ser útil un mensaje de este tipo pero este no es el momento de explicarlo por ser bastante avanzado.
 
@@ -184,6 +188,8 @@ Los números de mensajes no tienen por que ser consecutivos, puede haber huecos.
 
 **Los mensajes del sistema** son una serie de mensajes que se definen comenzando por un caracter «/» y un número. Este número se corresponde al _número de mensaje._
 
+![](/assets/mensajes-del-sistema.png)
+
 Cada uno de estos mensajes es una respuesta por defecto del sistema, en general heredadas de PAW y otros sistemas anteriores. Puedes modificarlos si crees que son demasiado serios, demasiado informales o que simplemente no encajan con el tono de tu aventura. Asegúrate de que mantienen son coherentes en su conjunto.
 
 Normalmente no es necesario añadir más mensajes de sistema de los que hay. De hecho, es poco recomendable porque podrían entrar en conflicto con futuras expansiones de **ngPAWS**.
@@ -192,11 +198,13 @@ Normalmente no es necesario añadir más mensajes de sistema de los que hay. De 
 
 La sección **respuestas** es un proceso y es en dichos procesos donde ocurren las contestaciones a lo que escribe el jugador, debes añadirlas en el Proceso 0 \(RESP\) o tabla de respuestas.
 
+![](/assets/PRO.png)
+
 Algunos de los procesos tienen funciones predefinidas
 
 * Proceso 0: la tabla de respuestas.
 * Proceso 1: eventos que ocurren **sin la acción del jugador** y tras describir una localidad.
 * Proceso 2: eventos que courren **sin la acción del jugador** y tras cada una de sus órdenes
 
-Veremos más en detalle los procesos en el siguiente capítulo.
+Veremos los procesos más en detalle, en el siguiente capítulo.
 
