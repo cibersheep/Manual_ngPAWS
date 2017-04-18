@@ -6,5 +6,6 @@
 * [Instalación](instalacion.md)
 * [La base de datos de la aventura](la-base-de-datos-de-la-aventura.md)
 * [La base de datos de inicio](La base de datos de inicio.md)
+* [La tabla de respuestas](La-tabla-de-respuestas.md)
 * [ngPAWS para programadores PAWS](ngpaws-para-programadores-paws.md)
 
