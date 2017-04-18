@@ -169,7 +169,7 @@ Son mensajes definidos por el usuario de la siguiente forma: «/» seguida del n
 
 Antes se definía como mensaje 50 en la tabla de mensajes
 
-`/50   
+`/50     
 Abres la puerta.`
 
 Luego en un condacto, se hacía que se mostrara dicho mensaje poniendo:
@@ -198,5 +198,5 @@ Algunos de los procesos tienen funciones predefinidas
 * Proceso 1: eventos que ocurren **sin la acción del jugador** y tras describir una localidad.
 * Proceso 2: eventos que courren **sin la acción del jugador** y tras cada una de sus órdenes
 
-Lo detallaremos mejor en el siguiente capítulo.
+Veremos más en detalle los procesos en el siguiente capítulo.
 
