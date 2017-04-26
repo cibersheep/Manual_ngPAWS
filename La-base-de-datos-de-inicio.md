@@ -1,6 +1,6 @@
 ## La base de datos de inicio {#la-base-de-datos-de-inicio}
 
-Para que el autor de una nueva aventura no tenga que crearla desde cero, se ha creado lo que llamamos \_la base de datos de inicio, \_que no es más que una aventura básica para poder ser usada como esquema. Esta aventura ya contiene un objeto y una localidad de ejemplo, bastante vocabulario y respuestas predeterminadas para las acciones más comunes que pueda teclear el jugador  \(tomar, dejar, poner, atacar, hablar, saltar, etc.\).
+Para que el autor de una nueva aventura no tenga que crearla desde cero, se ha creado lo que llamamos la _base de datos de inicio,_ que no es más que una aventura básica para poder ser usada como esquema. Esta aventura ya contiene un objeto y una localidad de ejemplo, bastante vocabulario y respuestas predeterminadas para las acciones más comunes que pueda teclear el jugador  \(tomar, dejar, poner, atacar, hablar, saltar, etc.\).
 
 Se usará esta base de datos cada vez que se cree una aventura nueva con el editor gráfico. De forma alternativa, se puede hacer una copia de la carpeta descargada para cada aventura.
 
