@@ -1,13 +1,18 @@
-Así es como funciona ngPAWS. Abajo hay un diagrama que permite verlo más visualmente.
+# El bucle principal
 
-1. Se describe la localidad
-2. Se ejecuta el proceso 1
-3. Se piden órdenes del jugador hasta que se recibe alguna
-4. Se forma una sentencia lógica (SL) analizando la frase y desgranando verbo, nombres, adverbios, adjetivos, etc. y se recorre la tabla de respuestas. 
-5. Si se encuentran entradas acordes se ejecutan hasta que se encuentra un DONE. Después se ejecuta el proceso 2 y se vuelve al punto 3. Si en lugar de DONE se encuentra un DESC es igual, solo que se vuelve al punto 1 (DESC obliga a redescribir la localidad)
-6. Si no se encuentra ninguna entrada en la tabla , o ninguna acaba en un DONE, se comprueba la tabla de conexiones, a ver si lo que pusimos es una orden para movernos de sitio. Si hay éxito al mirar la tabla, se mueve al jugador y se vuelve al punto 1.
-7. Si tampoco hay éxito en la tabla de conexiones, se muestra el mensaje "No puedes hacer eso", se ejecuta el proceso 2,  y se vuelve al punto 3.
+**ngPAWS** funciona ejecutando varias acciones o comprobaciones en blucle \(el bucle principal\) que poodría dividirse en siete apartados. Más abajo encontrarás un diagrama que muestra este bucle más visualmente.
 
-![ngPAWS main loop](http://www.ngpaws.com/wikires/ngpawsloop_es.png?1)
+1. Se describe la localidad actual.
+2. Se ejecuta el _Proceso 1._
+3. Se espera una orden del jugador hasta que se reciba alguna.
+4. Se forma una _sentencia lógica_ \(SL\) analizando la frase que ha escrito el jugador y desgranando verbo, sustantivo, adverbios, adjetivos, etc. y se recorre la [_tabla de respuestas_](/La-tabla-de-respuestas.md)_._ 
+5. Si se encuentran entradas que concuerden con la setencia lógica, se ejecuta todas las instrucciones hasta que se llegue a un **DONE**. 
+   Después se ejecuta el _Proceso 2_ y se vuelve al punto 3. 
+   Si en lugar de **DONE** se encuentra un **DESC** \(que obliga a describir la localidad actual\) se vuelve al punto 1.
+6. Si no se encuentra ninguna entrada en la tabla, o ninguna acaba con un **DONE,** se comprueba la _tabla de conexiones,_ a ver si la sentencia lógica es una orden para moverse de localidad. Si hay éxito, se coloca al jugador a la nueva localidad y se vuelve al punto 1.
+7. En caso de que tampoco haya concordancia en la _tabla de conexiones,_ se muestra el mensaje «No puedes hacer eso.», «¿Perdón? Por favor, prueba con otras palabras.» o similar. Luego, se ejecuta el _Proceso 2,_  y se vuelve al punto 3.
 
-[[Ir al siguiente capítulo: los flags|los flags]]
+![](/assets/bucle-principal.png)
+
+
+
