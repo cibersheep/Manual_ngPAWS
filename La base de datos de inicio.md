@@ -1,4 +1,4 @@
-## La base de datos de inicio
+## La base de datos de inicio {#la-base-de-datos-de-inicio}
 
 Para que el autor de una nueva aventura no tenga que crearla desde cero, se ha creado lo que llamamos \_la base de datos de inicio, \_que no es más que una aventura básica para poder ser usada como esquema. Esta aventura ya contiene un objeto y una localidad de ejemplo, bastante vocabulario y respuestas predeterminadas para las acciones más comunes que pueda teclear el jugador  \(tomar, dejar, poner, atacar, hablar, saltar, etc.\).
 
