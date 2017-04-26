@@ -10,9 +10,7 @@
    Después se ejecuta el _Proceso 2_ y se vuelve al punto 3. 
    Si en lugar de **DONE** se encuentra un **DESC** \(que obliga a describir la localidad actual\) se vuelve al punto 1.
 6. Si no se encuentra ninguna entrada en la tabla, o ninguna acaba con un **DONE,** se comprueba la _tabla de conexiones,_ a ver si la sentencia lógica es una orden para moverse de localidad. Si hay éxito, se coloca al jugador a la nueva localidad y se vuelve al punto 1.
-7. En caso de que tampoco haya concordancia en la _tabla de conexiones,_ se muestra el mensaje «No puedes hacer eso.», «¿Perdón? Por favor, prueba con otras palabras.» o similar. Luego, se ejecuta el _Proceso 2,_  y se vuelve al punto 3.
+7. En caso de que tampoco haya concordancia en la _tabla de conexiones,_ se muestra el mensaje «No puedes hacer eso.» o similar. Luego, se ejecuta el _Proceso 2,_  y se vuelve al punto 3.
 
 ![](/assets/bucle-principal.png)
-
-
 
