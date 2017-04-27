@@ -11,4 +11,7 @@
 * [El bucle principal](El-bucle-principal.md)
 * [Las flags \(o banderas\)](Los-flags.md)
 * [ngPAWS para programadores PAWS](ngpaws-para-programadores-paws.md)
+* [El Proceso interrupción](El-proceso-interrupción.md)
+* [Depuración de errores con la consola javascript](depuracion-de-errores-con-la-consola-javascript.md)
+* [Complementos y extensiones](Plugins-y-extensiones-de-ngPAWS.md)
 
