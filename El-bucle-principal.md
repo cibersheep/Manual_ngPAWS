@@ -1,4 +1,4 @@
-# El bucle principal
+## El bucle principal
 
 **ngPAWS** funciona ejecutando varias acciones o comprobaciones en blucle \(el bucle principal\) que poodría dividirse en siete apartados. Más abajo encontrarás un diagrama que muestra este bucle más visualmente.
 

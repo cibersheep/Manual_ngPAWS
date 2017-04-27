@@ -13,10 +13,10 @@ Antes de empezar, si eres o fuiste un usuario de **PAWS,** te recomiendo leer la
 * Capítulo 1: [¿Qué es ngPAWS?](/que-es-ngpaws.md)
 * Capítulo 2: [Instalación](/instalacion.md)
 * Capítulo 3: [La base de datos de la aventura](/la-base-de-datos-de-la-aventura.md)
-* Capítulo 4: [La base de datos de inicio](/La base de datos de inicio.md)
+* Capítulo 4: [La base de datos de inicio](/La-base-de-datos-de-inicio.md)
 * Capítulo 5: [La tabla de respuestas](/La-tabla-de-respuestas.md)
-* Capítulo 6: \[Eventos\] \(Eventos\)
-* Capítulo 7: \[El bucle principal\] \(El bucle principal\)
+* Capítulo 6: [Eventos](/Eventos.md)
+* Capítulo 7: [El bucle principal](/El-bucle-principal.md)
 * Capítulo 8: \[Los flags\] \(Los flags\)
 
 ### Guía avanzada
