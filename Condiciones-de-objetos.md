@@ -8,3 +8,6 @@ Estas condiciones tendrán éxito o no dependiendo de dónde estén determinados
 * [NOTWORN](NOTWORN_ES)
 * [ISAT](ISAT_ES)
 * [ISNOTAT](ISNOTAT_ES)
+
+
+
