@@ -1,6 +1,6 @@
 ## Lista alfabética de _condactos_
 
-### ABILITY
+### ABILITY {#ability}
 
 **ABILITY valor1 valor2**
 
@@ -29,6 +29,18 @@ LET 52 valor2
 
 ### AT
 
+**AT locno.**
+
+Tiene éxito si el jugador está en la localidad locno.
+
+Ver también:
+
+* NOTAT
+* ATGT
+* ATGE
+* ATLE
+* ATLT
+
 ### ATGE
 
 ### ATGT
@@ -52,6 +64,7 @@ LET 52 valor2
 * BCLEAR
 
 * BEEP
+
 * BELL
 * BLOCK
 * BNEG
@@ -64,6 +77,7 @@ LET 52 valor2
 * CARRIED
 
 * CHANCE
+
 * CHARSET
 * CLEAR
 * CLEAREXIT
@@ -80,6 +94,7 @@ LET 52 valor2
 * DEBUG
 
 * DESC
+
 * DESTROY
 * DIV
 * DOALL
@@ -90,6 +105,7 @@ LET 52 valor2
 * END
 
 * EQ
+
 * EXITS
 * EXTERN
 
@@ -100,6 +116,7 @@ LET 52 valor2
 * GE
 
 * GET
+
 * GETEXIT
 * GETKEY
 * GOTO
@@ -113,6 +130,7 @@ LET 52 valor2
 * INK
 
 * INVEN
+
 * ISAT
 * ISDOALL
 * ISDONE
@@ -134,6 +152,7 @@ LET 52 valor2
 * LE
 
 * LET
+
 * LISTAT
 * LISTCONTENTS
 * LISTNPC
@@ -144,6 +163,7 @@ LET 52 valor2
 * MES
 
 * MESSAGE
+
 * MINUS
 * MOD
 * MODE
@@ -153,6 +173,7 @@ LET 52 valor2
 * NEWLINE
 
 * NEWTEXT
+
 * NORESP
 * NOTAT
 * NOTCARR
@@ -168,6 +189,7 @@ LET 52 valor2
 * OBJAT
 
 * OBJAT
+
 * OBJFOUND
 * OBJNOTFOUND
 * OCLEAR
@@ -180,6 +202,7 @@ LET 52 valor2
 * PAPER
 
 * PARSE
+
 * PAUSE
 * PAUSEVIDEO
 * PICTURE
@@ -200,6 +223,7 @@ LET 52 valor2
 * RAMLOAD
 
 * RAMSAVE
+
 * RANDOM
 * RANDOMX
 * REMOVE
@@ -213,6 +237,7 @@ LET 52 valor2
 * SAME
 
 * SAVE
+
 * SCORE
 * SET
 * SETEXIT
@@ -229,6 +254,7 @@ LET 52 valor2
 * TAKEOUT
 
 * TEXTPIC
+
 * TIME
 * TIMEOUT
 * TITLE
@@ -242,6 +268,7 @@ LET 52 valor2
 * WARNINGS
 
 * WEAR
+
 * WEIGH
 * WEIGH
 * WEIGHT
