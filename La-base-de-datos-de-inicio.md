@@ -10,7 +10,7 @@ Si se abre el fichero con extensión **txp** desde el editor gráfico, se crear�
 
 Para que esta guía sirva para todos el mundo, encontraréis el nombre de cada sección del editor gráfico y entre paréntesis lo que se muestra en el fichero de texto.
 
-### La sección de definiciones \(-\) {#la-seccion-de-definiciones}
+### La sección de definiciones \(-\) {#la-secion-de-definiciones}
 
 En el editor de textos se encuentra al principio, antes de la sección **/CTL**.
 

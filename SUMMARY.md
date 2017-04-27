@@ -9,6 +9,6 @@
 * [La tabla de respuestas](La-tabla-de-respuestas.md)
 * [Eventos](Eventos.md)
 * [El bucle principal](El-bucle-principal.md)
-* [ngPAWS para programadores PAWS](ngpaws-para-programadores-paws.md)
 * [Las flags \(o banderas\)](Los-flags.md)
+* [ngPAWS para programadores PAWS](ngpaws-para-programadores-paws.md)
 
