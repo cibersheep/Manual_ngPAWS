@@ -64,22 +64,22 @@ Es posible mejorar **ngPAWS** añadiendo funcionalidades, _condactos,_ librería
 * \[Hooks\]\(hooks\_es\) \(se necesitan conocimientos de javascript\)
 * \[Cambiando la configuración de la pantalla\] \(Cambiando la configuración de la pantalla\) \(se necesitan conocimientos de CSS\)
 
-### Cómo portar un antiguo juego de ZX Spectrum
+### Portar un antiguo juego de ZX Spectrum
 
 Lo primero que debes saber es que no será tan fácil como esperas. Una vez hecho esta advertencia, echa un ojo a los siguientes artículos:
 
 * \[Conversión de PAWS a ngPAWS\] \(Conversión de **PAWS** a **ngPAWS**\)
 * \[Compatibildidad hacia atrás\]\(Compatibildidad hacia atrás\)
 
-### Cómo portar un antiguo juego de Superglús
+### Portar un antiguo juego de Superglús
 
 En este caso es más fácil. Ver:
 
 * \[Conversión de Superglús a ngPAWS\]\(Conversión de **Superglús** a **ngPAWS**\)
 
-### Errores en la guía
+### Mejorar esta guía
 
-Si encuentras errores o partes confusas, no dudes en añadir un comentario \(pulsa el ![](/assets/maspetit.png) que aparace al pasar el ratón sobre un párrafo\) y haremos lo posible por mejorar esta guía.
+Si encuentras errores o partes confusas en esta guía, no dudes en añadir un comentario en la versión en línea \(pulsa el ![](/assets/maspetit.png) que aparace al pasar el ratón sobre un párrafo\) y haremos lo posible por mejorarla.
 
 ### Créditos
 
