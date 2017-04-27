@@ -58,7 +58,7 @@ RECLAMAR RECOMPENSA
 
 En este caso comprobamos con `NOTZERO` que solo se cumple esta condición si en la _flag_ fDragonMuerto no está la «bola» con el número 0.
 
-Este ejemplo tiene un problema similar no obstante: como no comprobamos si la recompensa ya ha sido entregada, acabaremos pudiendo reclamarala cuantas veces queramos. Lo ideal sería usar otra _flag,_ la 254 por ejemplo, para determinar si ya se ha entregado la recompensa. Así si añadimos en la [sección de definiciones](#contando) `#define flg 254 fEntregadaRecompensa` podremos poner:
+Este ejemplo tiene un problema similar no obstante: como no comprobamos si la recompensa ya ha sido entregada, acabaremos pudiendo reclamarala cuantas veces queramos. Lo ideal sería usar otra _flag,_ la 254 por ejemplo, para determinar si ya se ha entregado la recompensa. Así si añadimos en [la sección de definiciones](/La-base-de-datos-de-inicio.html#la-secion-de-definiciones) `#define flg 254 fEntregadaRecompensa` podremos poner:
 
 ```
 RECLAMAR RECOMPENSA
