@@ -15,7 +15,7 @@
 * [Complementos y extensiones](Plugins-y-extensiones-de-ngPAWS.md)
 * [Referencia: Condactos de condición](Condactos-condición.md)
 * [Referencia: Condactos de acción](Condactos-acción.md)
-* Referencia: Condactos especiales
+* [Referencia: Condactos especiales](Condactos-especiales.md)
 * [Referencia: Lista alfabética de condactos](Lista-alfabética-de-condactos.md)
 * [ngPAWS para programadores PAWS](ngpaws-para-programadores-paws.md)
 
