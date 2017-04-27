@@ -19,7 +19,7 @@ Así, cada vez que visitemos el invernadero, veremos su descripción y, justo de
 O lo que es lo mismo: el sol sale, llueve, un meteorito cae, etc. En una aventura de texto también pasan cosas que nada tienen que ver con lo que hace el jugador. Para manejar este tipo de eventos **ngPAWS** usa la sección _Proceso 2_ \(**/PRO 2**\) accesible desde el editor e el mnú `Proyecto > Procesos > Proceso 2`.
 
 El _Proceso 2_ es como el _Proceso 0_ pero se comprueba **después de cada orden** del jugador, incluso si la [_tabla de respuestas_](/La-tabla-de-respuestas.md) acabó con un **DONE**. Su función es hacer que ciertas cosas ocurran cada turno o al menos que cada turno se pueda decidir si algo debe pasar.  
-Generalmente las entradas en el _Proceso 2_ no tienen verbo ni sustantivo como condición, si no dos subrayados \(`_ `_`_`_\) en su lugar.
+Generalmente las entradas en el _Proceso 2_ no tienen verbo ni sustantivo como condición, si no dos subrayados \(`_ _`\) en su lugar.
 
 Veamos un ejemplo:
 
