@@ -17,7 +17,7 @@ Antes de empezar, si eres o fuiste un usuario de **PAWS,** te recomiendo leer la
 * Capítulo 5: [La tabla de respuestas](/La-tabla-de-respuestas.md)
 * Capítulo 6: [Eventos](/Eventos.md)
 * Capítulo 7: [El bucle principal](/El-bucle-principal.md)
-* Capítulo 8: \[Los flags\] \(Los flags\)
+* Capítulo 8: [Las flags \(o banderas\)](/Los-flags.md)
 
 ### Guía avanzada
 

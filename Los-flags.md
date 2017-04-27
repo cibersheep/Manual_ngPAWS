@@ -34,7 +34,7 @@ MATAR DRAGON
 
 Ahora, antes de intentar matar al dragón, comprobamos que la caja \(la _flag_\) 255 contiene la «bola» con el número 0 \(`ZERO 255`\) y solo si es así \(y por tanto el dragón está vivo\) lo matamos, se escribe la ación y metemos la «bola» con el número 1 en la «caja» 255 \(con la orden `LET 255 1`\). Ahora, si volvemos a intentar matarlo, como la «caja» 255 ya no contiene la «bola» con el número 0, no se continúa de la instrucción `ZERO 255`.
 
-Si en la sección de definiciones especificamos esta _flag_ usando `#define flg fDragonMuerto 255`, nuestro código de matar al dragón puede ser más legible aún porque en lugar de 255 pondremos fDragonMuerto:
+Si en [la sección de definiciones](/La-base-de-datos-de-inicio.html#la-secion-de-definiciones) especificamos esta _flag_ usando `#define flg fDragonMuerto 255`, nuestro código de matar al dragón puede ser más legible aún porque en lugar de 255 pondremos fDragonMuerto:
 
 ```
 MATAR DRAGON
