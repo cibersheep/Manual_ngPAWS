@@ -31,7 +31,7 @@ Los _condactos_ \(condición-acciones, **cond**ition-**act**ions\) de **ngPAWS**
 
 Hay muchos _condactos_ en **ngPAWS** pero no es muy adecuado leérselos todos de tira, si no que es mejor ir entendiéndolos con ejemplos.
 
-**Importante: **las entradas en la _tabla de respuestas_ pueden contener un verbo y un nombre, solo un verbo, solo un nombre o incluso ninguno de los dos. Cualquiera de las dos partes puede ser sustituida por un símbolo de subrayado «\_», y su presencia indica que cualquier palabra podría valer para acceder a esa entrada.
+**Importante: **las entradas en la _tabla de respuestas_ pueden contener un verbo y un nombre, solo un verbo, solo un nombre o incluso ninguno de los dos. Cualquiera de las dos partes puede ser sustituida por un símbolo de subrayado «`_`», y su presencia indica que cualquier palabra podría valer para acceder a esa entrada.
 
 Por ejemplo:
 
@@ -47,4 +47,28 @@ _ PLATANO
 
 La primera entrada será ejecutada si el jugador escribe LLORAR pero también si pone LLORAR INTENSAMENTE o LLORAR COMO SI ACABARA DE NACER, incluso si el jugador pone un sinsentido como LLORAR PLÁTANOS, funcionaría.  
 La segunda entrada funcionaría tanto si el jugador pone COGER PLÁTANO, como si escribe TIRAR PLÁTANO o simplemente PLÁTANO. Si el jugador escribiera LLORAR BANANA, se ejecutaría la primera entrada pero la segunda no, porque al ejecutarse la primera y llegar al DONE, el sistema no seguiría mirando más entradas.
+
+### Tipos de _condactos_
+
+Existen tres tipos diferentes de _condactos:_
+
+* [Condactos de condición](/Condactos-condición.md): Comprueban si se cumple la condición. En caso contrario se detiene la ejecución.
+
+* [Condactos de acción](/Condactos-acción.md): Realizan una acción \(como mover un objeto, escribir algo, etc.\).
+
+* [Condactos especiales](https://github.com/Utodev/ngPAWS/wiki/Condactos-especiales): Cambian el estado del sistema para mostrar al usuario la respuesta que debe darse a su orden.
+
+También puedes consultar la lista completa de _condactos:_
+
+* [Lista alfabética de condactos](/Lista-alfabética-de-condactos.md)
+
+### Modificadores de los condactos
+
+Los condactos de condición permiten añadir un caracter especial como sufijo, que hacen que funcionen de manera diferente. Esta funcionalidad es bastante avanzada, por lo que probablemente es mejor que antes de mirar las siguientes opciones entiendas los condactos correctamente.
+
+* [Condactos sharp](https://github.com/Utodev/ngPAWS/wiki/Condactos-sharp)
+* [Condactos colon](https://github.com/Utodev/ngPAWS/wiki/Condactos-colon)
+* [Bloques de código](https://github.com/Utodev/ngPAWS/wiki/Bloques-de-código)
+
+
 
