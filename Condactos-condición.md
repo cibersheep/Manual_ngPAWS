@@ -4,7 +4,7 @@
 
 Las siguientes condiciones tiene éxito o no, dependiendo de la localidad actual del jugador:
 
-* [AT](AT_ES)
+* [AT](/Lista-alfabética-de-condactos.html#at)
 * [NOTAT](NOTAT_ES)
 * [ATGT](ATGT_ES)
 * [ATLT](ATLT_ES)
