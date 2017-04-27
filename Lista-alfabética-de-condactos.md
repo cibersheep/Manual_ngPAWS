@@ -1,24 +1,56 @@
-* ABILITY
-* ABSENT
-* ADD
-* ADJECT1
-* ADJECT2
-* ADVERB
-* ANYKEY
-* ASK
-* AT
-* ATGE
-* ATGT
-* ATLE
-* ATLT
-* AUTOD
-* AUTOG
-* AUTOP
-* AUTOR
-* AUTOT
-* AUTOW
+## Lista alfabética de _condactos_
+
+### ABILITY
+
+**ABILITY valor1 valor2**
+
+Esta acción fija los valores de la flag 37 y flag 52, es decir, el número máximo de objetos y el máximo peso que el jugador puede llevar. No se hacen comprobaciones sobre si el jugador lleva ya más de dichos máximos.
+
+**Equivale a:**
+
+```
+LET 37 valor1 
+LET 52 valor2
+```
+
+### ABSENT
+
+### ADD
+
+### ADJECT1
+
+### ADJECT2
+
+### ADVERB
+
+### ANYKEY
+
+### ASK
+
+### AT
+
+### ATGE
+
+### ATGT
+
+### ATLE
+
+### ATLT
+
+### AUTOD
+
+### AUTOG
+
+### AUTOP
+
+### AUTOR
+
+### AUTOT
+
+### AUTOW
 
 * BCLEAR
+
 * BEEP
 * BELL
 * BLOCK
@@ -30,6 +62,7 @@
 * BZERO
 
 * CARRIED
+
 * CHANCE
 * CHARSET
 * CLEAR
@@ -45,6 +78,7 @@
 * CREATE
 
 * DEBUG
+
 * DESC
 * DESTROY
 * DIV
@@ -54,14 +88,17 @@
 * DROPALL
 
 * END
+
 * EQ
 * EXITS
 * EXTERN
 
 * FADEIN
+
 * FADEOUT
 
 * GE
+
 * GET
 * GETEXIT
 * GETKEY
@@ -70,9 +107,11 @@
 * GT
 
 * HELP
+
 * HOOK
 
 * INK
+
 * INVEN
 * ISAT
 * ISDOALL
@@ -93,6 +132,7 @@
 * ISVIDEO
 
 * LE
+
 * LET
 * LISTAT
 * LISTCONTENTS
@@ -102,6 +142,7 @@
 * LT
 
 * MES
+
 * MESSAGE
 * MINUS
 * MOD
@@ -110,6 +151,7 @@
 * MUL
 
 * NEWLINE
+
 * NEWTEXT
 * NORESP
 * NOTAT
@@ -124,6 +166,7 @@
 * NPCAT
 
 * OBJAT
+
 * OBJAT
 * OBJFOUND
 * OBJNOTFOUND
@@ -135,6 +178,7 @@
 * OZERO
 
 * PAPER
+
 * PARSE
 * PAUSE
 * PAUSEVIDEO
@@ -154,6 +198,7 @@
 * QUIT
 
 * RAMLOAD
+
 * RAMSAVE
 * RANDOM
 * RANDOMX
@@ -166,6 +211,7 @@
 * RNDWRITELN
 
 * SAME
+
 * SAVE
 * SCORE
 * SET
@@ -181,6 +227,7 @@
 * SYNONYM
 
 * TAKEOUT
+
 * TEXTPIC
 * TIME
 * TIMEOUT
@@ -189,9 +236,11 @@
 * TURNS
 
 * VOLUME
+
 * VOLUMEVIDEO
 
 * WARNINGS
+
 * WEAR
 * WEIGH
 * WEIGH
@@ -209,6 +258,7 @@
 * YOUTUBE
 
 * ZERO
+
 * ZONE
 
 
