@@ -43,7 +43,7 @@ Además, existe una serie de microtutoriales que explican cómo hacer ciertas ta
 
 * \[\[La Torre\]\]
 * \[\[microtutoriales\]\]
-* \[\[Tutorial clásico\|[http://www.ngpaws.com/wikires/PAWS\_Introduccion.pdf](http://www.ngpaws.com/wikires/PAWS_Introduccion.pdf]\)\] \(empezar a leer en el punto "El Guion inicial"\)
+* [Tutorial clásico](https://cibersheep.gitbooks.io/paws-sistema-profesional-para-la-creacion-de-aven/content/escribiendo-una-aventura.html#el-guión-inicial)
 
 ### Tutorial en vídeo
 
